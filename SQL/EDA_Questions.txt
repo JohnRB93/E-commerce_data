@@ -1,0 +1,22 @@
+Get to know the data
+
+Is there any correlation between the customer's state address and the number of purchases?
+
+How much is being spent by customers from each state?
+
+What is the most popular payment method?
+
+Which products are being bought the most?
+By all costomers and by gender.
+
+Which products are generating the highest revenue?
+
+Which sellers are selling the most in number of items sold, and sales total?
+
+Which sellers have the highest rate of items delivered on time?
+
+What customers state address has better delivery status [on time, late]?
+
+Which sellers have the highest average rating reviews?
+Does the ratio of delivery status have a visible impact on the average rating reviews?
+
