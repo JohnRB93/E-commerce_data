@@ -103,6 +103,15 @@ FROM products p
 GROUP BY p.ID, p.Name, p.Unit_Price
 ORDER BY SUM(p.Unit_Price) DESC;
 
+--What is the mean, median, and mode of ratings?
+SELECT
+	TOP 1 PERCENTILE_CONT(0.5) WITHIN GROUP(ORDER BY Five_Star_Reviews) OVER() AS median_num_five_star_reviews
+FROM sellers;
+
+SELECT
+	AVG(Five_Star_Reviews) AS avg_num_five_star_reviews
+FROM sellers;
+
 --Which sellers are selling the most in number of items sold, and sales total?
 WITH count_sold AS (
 	SELECT

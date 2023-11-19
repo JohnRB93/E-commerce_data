@@ -11,6 +11,10 @@ By all costomers and by gender.
 
 Which products are generating the highest revenue?
 
+------ Sellers and Ratings ----------------------------------
+
+What is the mean, median, and mode of ratings?
+
 Which sellers are selling the most in number of items sold, and sales total?
 
 Which sellers have the highest rate of items delivered on time?
